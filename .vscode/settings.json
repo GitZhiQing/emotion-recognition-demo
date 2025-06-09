@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.idea": true,
+        "**/.venv": true,
+        "**/.*_cache": true, // pytest ruff uv
+        "**/.deepface": true,
+    }
+}

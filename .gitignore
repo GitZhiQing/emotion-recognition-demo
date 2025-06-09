@@ -1,0 +1,32 @@
+# system
+.DS_Store
+
+# venv
+.venv/
+
+# dev
+tmp/
+
+# secrets
+.env
+
+# models
+.deepface/
+
+# cache
+__pycache__/
+# uv, ruff...
+.*_cache/
+
+# data
+data/frames/*
+!data/frames/.gitkeep
+
+data/images/*
+!data/images/.gitkeep
+
+data/results/*
+!data/results/.gitkeep
+
+data/videos/*
+!data/videos/.gitkeep
