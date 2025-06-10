@@ -137,7 +137,8 @@ def main():
                 break
             if key == ord(" "):
                 img_save_num += 1
-                save_frame(frame, img_save_num)
+                save_frame(frame_disp, img_save_num)  # 保存已叠加分析结果的帧
+
     except KeyboardInterrupt:
         print("键盘中断，退出程序...")
     except Exception as e:
